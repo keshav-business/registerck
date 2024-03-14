@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>YTF PARTNER | CSS, Js &amp; VanillaTilt</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js'></script>
+</head>
+<body>
+  <div class="container-02">
+    <h2>PAYMENT INSTRUCTIONS</h2>
+    <div class="glassmorphic-card">
+      <div class="imgBox">
+        <img src="/YCF-1.png" alt="Custom Image" class="square-logo">
+      </div>
+      <div class="contentBox">
+        <h3>QR CODE FOR UPI</h3>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-02">
+    <h2>GENERAL REGISTRATION</h2>
+    <div class="glassmorphic-card">
+      <div class="imgBox">
+        
+      </div>
+      <div class="contentBox">
+        <h3>YCF</h3>
+        <form action="/register" method="post">
+          <label for="username"></label>
+          <input type="text" placeholder="Enter your name" id="username" name="username" required><br><br>
+          <label for="email"></label>
+          <input type="email" placeholder="Enter your email" id="email" name="email" required><br><br>
+          <label for="phonenumber"></label>
+          <input type="tel" placeholder="Enter your phone number" id="phonenumber" name="phonenumber" required><br><br>
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-02">
+    <h2>PAYMENT REGISTRATION</h2>
+    <div class="glassmorphic-card">
+      <div class="imgBox">
+        <!--<img src="/YCF-1.png" alt="Custom Image" class="rounded-logo">-->
+      </div>
+      <div class="contentBox">
+        <h3>YCF</h3>
+        <form action="/register" method="POST">
+          <label for="upi-id"></label>
+          <input type="text" placeholder="Enter your UPI ID" id="upi-id" name="upi-id"><br><br>
+          <label for="transaction-id"></label>
+          <input type="text" placeholder="Enter your transaction ID" id="transaction-id" name="transaction-id"><br><br>
+          <label for="payment-screenshot"></label>
+          <input type="file" accept="image/*" id="payment-screenshot" name="payment-screenshot"><br><br>
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+</html>
